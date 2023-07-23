@@ -13,9 +13,9 @@ filter.addEventListener('keyup',filterItem);
 
 
 //FilterItem
-function filterItem(e){
+function filterItem(y){
 	//convert text to lowercase
-	var text = e.target.value.toLowerCase();
+	var text = y.target.value.toLowerCase();
 	
 	//Get List item
 	var items = document.getElementsByTagName("li");
