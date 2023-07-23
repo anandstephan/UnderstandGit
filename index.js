@@ -5,11 +5,7 @@ test()
 var form = document.getElementById("addForm");
 var itemList = document.getElementById("items");
 var filter = document.getElementById("filter");
-//Form Submit Event
-form.addEventListener('submit',addItem);
-
-//Delete Event
-itemList.addEventListener('click',removeItem);
+//Form Submit Even
 
 
 //Add Item
